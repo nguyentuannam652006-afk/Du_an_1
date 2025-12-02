@@ -59,17 +59,23 @@
         </li>
         <li class="nav-item">
           <a href="#" class="nav-link">
-            <i class="nav-icon bi bi-people-fill"></i>
+            <i class="nav-icon bi bi-person-badge"></i>
             <p>
-              Quản lý Khách hàng
+              Quản lý Hướng dẫn viên
               <i class="nav-arrow bi bi-chevron-right"></i>
             </p>
           </a>
           <ul class="nav nav-treeview">
             <li class="nav-item">
-              <a href="#" class="nav-link">
+              <a href="<?= BASE_URL ?>guide/index" class="nav-link">
                 <i class="nav-icon bi bi-circle"></i>
-                <p>Danh sách Khách hàng</p>
+                <p>Danh sách Hướng dẫn viên</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="<?= BASE_URL ?>guide/create" class="nav-link">
+                <i class="nav-icon bi bi-circle"></i>
+                <p>Thêm Hướng dẫn viên mới</p>
               </a>
             </li>
           </ul>
